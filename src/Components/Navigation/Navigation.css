@@ -1,0 +1,98 @@
+/* Navigation bar styles */
+header {
+    background-color: #333;
+  }
+  /* .logo:hover{
+    width: 140px;
+    height: 75px;
+  } */
+  nav ul {
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  nav ul li a.active {
+    background-color: #4CAF50;
+    /* background-color: #555; */
+    border-radius: 4%;
+  }
+  
+  /* Animation */
+  nav ul li a {
+    position: relative;
+  }
+  
+  nav ul li a:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4CAF50;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  /* Navigation bar styles */
+header {
+  background-color: #333;
+  position: relative;
+}
+.Link:hover{
+  /* background-color: #4CAF50; */
+}
+
+/* ... (your existing styles) */
+
+/* Media query for mobile devices */
+@media screen and (max-width: 767px) {
+  .nav-links-container {
+    display: none;
+
+  }
+
+  .nav-links-container.show-nav {
+    display: block;
+     margin: 50px;
+    
+  }
+  
+  .nav-links-container ul {
+    text-align: center;
+  }
+
+  .hamburger-button {
+    display: block;
+  }
+
+  .logo {
+    width: 100px; /* Adjust the logo size as needed */
+    height: auto;
+  }
+}
