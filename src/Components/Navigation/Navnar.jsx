@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import Pic from './imgs/Profile.HEIC'
+// import Pic from './imgs/Profile.HEIC'
 import {
   Box,
   Flex,
@@ -109,7 +109,7 @@ export default function Simple() {
               </Link>
             </li>
             <li>
-              <Link to="#">
+              <Link  to="#">
                 <Text fontSize="lg" fontWeight="bold" p={2}>
                   About
                 </Text>
