@@ -3,7 +3,6 @@ import { Routes, Route } from 'react-router-dom'
 
 // import route from 'react-router-dom'
 import "./App.css"
-import Navigation from './Components/Navigation/Navigation.jsx'
 import Home from './Components/Homepage/Home'
 import Adopt from './Components/Adoptpage/Adopt'
 import Donate from './Components/Donatepage/Donate'
@@ -12,7 +11,8 @@ import AdoptForm2 from './Components/Adoptpage/Adoptform/adoptform2'
 import AdoptForm1 from './Components/Adoptpage/Adoptform/adoptform1'
 import Availability from './Components/Adoptpage/Availability/availability'
 import Navnar from './Components/Navigation/Navnar'
-import NavBar from './Components/Navigation/NavBar'
+import Volunteers from './Components/Volunteers/volunteers'
+
 
 function App() {
   return (
@@ -28,6 +28,7 @@ function App() {
         <Route exact path="/AdoptForm2" element={<AdoptForm2 />} />
         <Route exact path="/AdoptForm1" element={<AdoptForm1 />} />
         <Route exact path="/Availability" element={<Availability/>} />
+        <Route exact path="/Volunteers" element={<Volunteers/>} />
       </Routes>
 
 

@@ -10,6 +10,7 @@ import {
   Text,
   Center,
   Image,
+  Heading
   
 } from '@chakra-ui/react';
 import {Link} from 'react-router-dom'
@@ -22,7 +23,11 @@ const Adopt = () => {
   },[])
   return (
     <ChakraProvider>
+
       <Box>
+      <Center bg="#4CAF50" h="200px">
+        <Heading color="white">Adopting a Pet</Heading>
+      </Center>
         {/* Title */}
         <Text fontSize={['3xl', '4xl', '6xl']} bgGradient='linear(to-l, #7928CA, #FF0080)'
   bgClip='text' fontWeight="extrabold" textAlign="center" px={4} py={8}>

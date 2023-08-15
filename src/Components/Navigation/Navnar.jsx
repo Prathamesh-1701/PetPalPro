@@ -102,7 +102,7 @@ export default function Simple() {
               </Link>
             </li>
             <li>
-              <Link to="#">
+              <Link to="/Volunteers">
                 <Text fontSize="lg" fontWeight="bold" p={2}>
                   Volunteer
                 </Text>
@@ -194,7 +194,7 @@ export default function Simple() {
       <Link to='/Donate'> <Text fontSize="lg" fontWeight="bold" p={2}>
         Donate
       </Text></Link>
-      <Link to='/Adopt'> <Text fontSize="lg" fontWeight="bold" p={2}>
+      <Link to='/Volunteers'> <Text fontSize="lg" fontWeight="bold" p={2}>
         Volunteer
       </Text></Link>
       <Link to='/Adopt'> <Text fontSize="lg" fontWeight="bold" p={2}>

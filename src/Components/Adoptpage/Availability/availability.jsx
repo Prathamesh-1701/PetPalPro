@@ -1,6 +1,6 @@
       
 import React from 'react'
-import { ChakraProvider, Box, Flex, Heading, Text, Center,Button, Image, CSSReset } from '@chakra-ui/react';
+import { ChakraProvider, Box, Flex, Heading, Text, Center,Button, Image } from '@chakra-ui/react';
 import { motion } from 'framer-motion'; // For animations
 import Card1 from './imgs/dog.jpg';
 import Card2 from './imgs/cat.jpg';
