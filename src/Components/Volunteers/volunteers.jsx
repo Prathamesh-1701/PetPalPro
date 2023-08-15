@@ -57,6 +57,7 @@ const VolunteerPage = () => {
       </Container>
 
       <Flex direction="column" alignItems="center" marginBottom="4rem">
+      
         <Box
           width={{ base: '100%', md: '80%' }}
           border="1px"
@@ -88,6 +89,7 @@ This experience taught me the true meaning of unconditional love. The joy in tho
             </Text>
           </Box>
         </Box>
+        
         <Box
           width={{ base: '100%', md: '80%' }}
           border="1px"
@@ -134,14 +136,7 @@ This experience taught me the true meaning of unconditional love. The joy in tho
               alt="Dan Abramov"
             />
             <Text margin="1%">
-            Rescuing a dog was a life-changing experience that filled my heart with joy and purpose. The moment I laid eyes on my furry companion, I knew that my life was about to be enriched beyond measure.
-
-Bringing this precious soul into my home was a journey of patience, compassion, and unwavering commitment. The transformation I witnessed in my rescued dog was nothing short of miraculous. From the timid and uncertain creature that first entered my life, emerged a confident, loving, and loyal friend.
-
-Every day felt like a new adventure as we navigated life together. The bond we developed was forged through shared moments of triumph and growth. Teaching my rescued dog to trust, to love, and to embrace the world around us was a privilege that I will forever cherish.
-
-This experience taught me the true meaning of unconditional love. The joy in those wagging tails, the warmth of those furry cuddles, and the unwavering companionship during both sunny days and stormy nights are priceless treasures that have profoundly impacted my life.
-              {/* Rest of the text */}
+            I adopted a dog from an adoption page. It was difficult to convince my parents as I had lost my dog a month before (due to death). Anyway, I convinced them. While adopting the dog, the aunt who was handling the dogs had tears in her eyes. She was thankful for us. She couldn't be happier. It was a little difficult for us to take away the dog from her sisters and mother, but we thought he would have a better life with us rather than on the streets. It was the best decision for him and us. Our home was filled with cuteness. Everyone was well taken care of. It was a bit challenging at first to make him behave well, but with time and good parenting, we made him a well-behaved dog. We now live happily. I believe Dog adoption is important because it changes their lives and ours. It brings us happiness and makes us believe in ourselves and our patience as parents. It's not about the breed, but how we perceive it and instill values.  Additionally adopting a street dog promotes compassion and ki{/* Rest of the text */}
             </Text>
           </Center>
           <Box backgroundColor="transparent" width="100%" display="flex" justifyContent="flex-end">
