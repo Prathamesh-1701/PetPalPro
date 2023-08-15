@@ -9,6 +9,7 @@ import {
   ListItem,
   Link,Flex,Button,Image, Avatar
 } from '@chakra-ui/react';
+import Yashraj from './imgs/YashrajThikane.jpg'
 
 const VolunteerPage = () => {
   return (
@@ -84,7 +85,7 @@ const VolunteerPage = () => {
                padding={'1%'}
         borderRadius='full'
         boxSize='150px'
-        src='https://bit.ly/dan-abramov'
+        src={Yashraj}
         alt='Dan Abramov'
         />
         <Text margin={'1%'}>Rescuing a dog was a life-changing experience that filled my heart with joy and purpose. The moment I laid eyes on my furry companion, I knew that my life was about to be enriched beyond measure.
@@ -130,11 +131,12 @@ const VolunteerPage = () => {
         
 
         </Center>
-        </Box>
+        
         <Box 
         
         backgroundColor={'Trasperant'} width={'100%'} display={'flex'} justifyContent={'flex-end'} ><Text marginRight={'8%'} as='b'> - Neha Karpe </Text></Box>
         </Box>  
+        </Box>
         <Center><Text bgGradient='linear(to-l, #58b75c, #c6e6c7)'
         bgClip='text' fontSize={'4xl'}>Thanks for readining</Text></Center>
 
