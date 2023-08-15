@@ -73,13 +73,10 @@ const VolunteerPage = () => {
               alt="Dan Abramov"
             />
             <Text margin="1%">
-            Rescuing a dog was a life-changing experience that filled my heart with joy and purpose. The moment I laid eyes on my furry companion, I knew that my life was about to be enriched beyond measure.
+            I had always believed in the power of compassion and the incredible bonds that animals can forge with humans. Little did I know that my decision to donate a pet would lead me on a profoundly touching and life-changing journey.
 
-Bringing this precious soul into my home was a journey of patience, compassion, and unwavering commitment. The transformation I witnessed in my rescued dog was nothing short of miraculous. From the timid and uncertain creature that first entered my life, emerged a confident, loving, and loyal friend.
-
-Every day felt like a new adventure as we navigated life together. The bond we developed was forged through shared moments of triumph and growth. Teaching my rescued dog to trust, to love, and to embrace the world around us was a privilege that I will forever cherish.
-
-This experience taught me the true meaning of unconditional love. The joy in those wagging tails, the warmth of those furry cuddles, and the unwavering companionship during both sunny days and stormy nights are priceless treasures that have profoundly impacted my life.
+                It all began when I met Max, a sweet and affectionate Labrador, at a local animal shelter. Max had an undeniable charm that radiated from his soulful eyes. As I spent time with him, I couldn't help but feel a strong connection. However, circumstances in my life were changing, and I knew that I wouldn't be able to provide Max with the time and attention he truly deserved.
+                Donating Max was not just an act of giving; it was a lesson in selflessness and a testament to the deep connections that form between humans and animals. While our time together was brief, the impact Max had on my life was profound. He taught me the beauty of letting go for the sake of someone else's happiness.
               {/* Rest of the text */}
             </Text>
           </Center>
