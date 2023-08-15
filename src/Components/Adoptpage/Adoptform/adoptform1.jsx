@@ -86,22 +86,7 @@ const Adopt = () => {
           </form>
         </div>
       </Box>
-      <Box className="footer">
-        <Box className="footer-content">
-          <Text>&copy; 2023 PetPal Center. All rights reserved.</Text>
-          <Flex as="nav" className="footer-links">
-            <Text as="a" href="/about" mr={4}>
-              About
-            </Text>
-            <Text as="a" href="/contact" mr={4}>
-              Contact
-            </Text>
-            <Text as="a" href="/privacy">
-              Privacy Policy
-            </Text>
-          </Flex>
-        </Box>
-      </Box>
+      
     </ChakraProvider>
   );
 };

@@ -11,7 +11,7 @@ import {
   Flex,
   Button,
   Image,
-  Avatar,
+//   Avatar,
 } from '@chakra-ui/react';
 import Yashraj from './imgs/YashrajThikane.jpg';
 import Neha from './imgs/NehaKarpe.jpg';
@@ -174,23 +174,7 @@ This experience taught me the true meaning of unconditional love. The joy in tho
       </Center>
 
       {/* Footer */}
-      <Box className="footer">
-        <Box className="footer-content">
-          <Text>&copy; 2023 PetPal Center. All rights reserved.</Text>
-          <Text>Prathamesh Dantkale</Text>
-          <Flex as="nav" className="footer-links">
-            <Text as="a" href="/about" mr={4}>
-              About
-            </Text>
-            <Text as="a" href="/contact" mr={4}>
-              Contact
-            </Text>
-            <Text as="a" href="/privacy">
-              Privacy Policy
-            </Text>
-          </Flex>
-        </Box>
-      </Box>
+      
     </Box>
   );
 };

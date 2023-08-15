@@ -101,7 +101,7 @@ const Adopt = () => {
           </form>
         </div>
       </Box>
-      <Box className="footer">
+      {/* <Box className="footer">
         <Box className="footer-content">
           <Text>&copy; 2023 PetPal Center. All rights reserved.</Text>
           <Flex as="nav" className="footer-links">
@@ -116,7 +116,7 @@ const Adopt = () => {
             </Text>
           </Flex>
         </Box>
-      </Box>
+      </Box> */}
     </ChakraProvider>
   );
 };

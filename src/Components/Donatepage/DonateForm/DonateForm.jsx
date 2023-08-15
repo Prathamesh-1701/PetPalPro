@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { ChakraProvider,Text,Flex, Box, Container, Heading,Input,FormLabel, FormControl, Textarea, Select, Button } from "@chakra-ui/react";
+import { ChakraProvider, Box, Container, Heading,Input,FormLabel, FormControl, Textarea, Select, Button } from "@chakra-ui/react";
 import './DonateForm.css'; // Import your CSS file for additional styling
 import 'aos/dist/aos.css';
 import AOS from 'aos'
@@ -113,7 +113,7 @@ function Donate() {
       </Box>
 
          
-      <Box className="footer">
+      {/* <Box className="footer">
         <Box className="footer-content">
           <Text>&copy; 2023 PetPal Center. All rights reserved.</Text>
           <Flex as="nav" className="footer-links">
@@ -128,7 +128,7 @@ function Donate() {
             </Text>
           </Flex>
         </Box>
-      </Box>
+      </Box> */}
 
     </ChakraProvider>
   );

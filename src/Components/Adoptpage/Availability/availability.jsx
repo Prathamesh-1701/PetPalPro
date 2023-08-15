@@ -54,7 +54,7 @@ const availability = () => {
 
       </Link>
 
-      <Box className="footer">
+      {/* <Box className="footer">
         <Box className="footer-content">
           <Text>&copy; 2023 PetPal Center. All rights reserved.</Text>
           <Flex as="nav" className="footer-links">
@@ -69,7 +69,7 @@ const availability = () => {
             </Text>
           </Flex>
         </Box>
-      </Box>
+      </Box> */}
 
 
    </ChakraProvider>

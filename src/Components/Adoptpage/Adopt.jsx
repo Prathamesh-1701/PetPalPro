@@ -153,28 +153,7 @@ const Adopt = () => {
         </Box>
 
         {/* Footer */}
-        <Box
-          p={4}
-          bg="gray.100"
-          borderTop="1px solid gray.300"
-          mt={8}
-          textAlign="center"
-        >
-          <Text>&copy; 2023 PetPal Center. All rights reserved.</Text>
-          {/* ... Footer links ... */}
-          <Flex as="nav" className="footer-links">
-            <Text as="a" href="/about" mr={4}>
-              About
-            </Text>
-            <Text as="a" href="/contact" mr={4}>
-              Contact
-            </Text>
-            <Text as="a" href="/privacy">
-              Privacy Policy
-            </Text>
-          </Flex>
-          
-        </Box>
+       
       </Box>
     </ChakraProvider>
   );

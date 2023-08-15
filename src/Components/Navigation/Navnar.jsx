@@ -25,6 +25,7 @@ import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 import Logo from "./imgs/logo.png"
 import { Link } from 'react-router-dom'
 import './Navigation.css'
+import Profile from './imgs/Profile.png'
 
 
 // interface Props {
@@ -109,14 +110,14 @@ export default function Simple() {
               </Link>
             </li>
             <li>
-              <Link  to="#">
+              <Link  to="/About">
                 <Text fontSize="lg" fontWeight="bold" p={2}>
                   About
                 </Text>
               </Link>
             </li>
             <li>
-              <Link to="#">
+              <Link to="/Contact">
                 <Text fontSize="lg" fontWeight="bold" p={2}>
                   Contact
                 </Text>
@@ -159,7 +160,7 @@ export default function Simple() {
                     
                 <Avatar
                   size={'sm'}
-                  src='./imgs/Profile.HEIC'
+                  src={Profile}
                 //   alt={'pic'}
                 />
               </MenuButton>
@@ -197,10 +198,10 @@ export default function Simple() {
       <Link to='/Volunteers'> <Text fontSize="lg" fontWeight="bold" p={2}>
         Volunteer
       </Text></Link>
-      <Link to='/Adopt'> <Text fontSize="lg" fontWeight="bold" p={2}>
+      <Link to='/About'> <Text fontSize="lg" fontWeight="bold" p={2}>
         About
       </Text></Link>
-      <Link to='/Adopt'> <Text fontSize="lg" fontWeight="bold" p={2}>
+      <Link to='/Contact'> <Text fontSize="lg" fontWeight="bold" p={2}>
         Contact
       </Text></Link>
     </Stack>
